@@ -2,6 +2,8 @@
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+using Tips.Views;
+
 namespace Tips
 {
     public partial class App : Application
@@ -10,7 +12,8 @@ namespace Tips
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            // MainPage = new MainPage();
+            MainPage = new CalculatorPage();
         }
 
         protected override void OnStart()
